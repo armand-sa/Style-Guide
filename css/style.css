@@ -1,11 +1,119 @@
+/* Global Variables */
+:root {
+  /* To use => color: var(--color-black); */
+  --color-black: rgb(0, 0, 0);
+  --color-white: rgb(255, 255, 255);
+  --color-dark-blue: rgb(100, 130, 173);
+  --color-light-blue: rgb(127, 161, 195);
+  --color-dark-beige: rgb(226, 218, 214);
+  --color-light-beige: rgb(245, 237, 237);
+}
+
 /* Global Styles */
 html,
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 16px;
   font-style: normal; 
 }
 
+/* Font Styles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 72px */
+h1 { 
+  font-size: 4.5rem; 
+}
+/* 60px */
+h2 { 
+  font-size: 3.75rem; 
+}
+/* 54px */
+h3 { 
+  font-size: 3.375rem; 
+}
+/* 48px */
+h4 { 
+  font-size: 3rem; 
+}
+/* 44px */
+h5 { 
+  font-size: 2.75rem; 
+}
+/* 40px */
+h6 { 
+  font-size: 2.5rem; 
+}
+
+/* Color Styles */
+
+.black {
+  color: var(--color-black); /* Black */
+}
+
+.white {
+  color: var(--color-white); /* White */
+}
+
+.dark-blue {
+  color: var(--color-dark-blue); /* Dark Blue */
+}
+
+.light-blue {
+  color: var(--color-light-blue); /* Light Blue */
+}
+
+.dark-beige {
+  color: var(--color-dark-beige); /* Dark Beige */
+}
+
+.light-beige {
+  color: var(--color-light-beige); /* Light Beige */
+}
+
+
 /* Homepage */
+
+/* Background image */
+.home-image {
+  position: relative;
+  background-image: url(../images/circles.webp);
+  /* Ensures the image covers the entire element */
+  background-size: cover;
+  /* Centers the background image within the element */
+  background-position: center;
+  height: 100vh;
+}
+
+/* Background image overlay */
+.home-image::after {
+  /* Required for the pseudo-element to be generated */
+  content: '';
+  /* Positions the pseudo-element relative to its nearest positioned ancestor */
+  position: absolute;
+  /* Alignments of the pseudo-element within the container */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* Sets the overlay color to white with 50% transparency */
+  background-color: rgba(255, 255, 255, 0.85);
+  /* Ensures the overlay appears above the background image */ 
+  z-index: 1; 
+}
+
+/* Content */
+.home-content {
+  position: relative;
+  z-index: 2;
+  top: 50%;
+  margin: 0 3.75rem; /* Left & Right: 60px */
+}
