@@ -95,6 +95,12 @@ h6 {
   padding: 1rem 5%;
 }
 
+/* Make navigation ul and its li's inline */
+.header nav > ul, 
+.header nav li {
+  display: inline;
+}
+
 /* Content */
 .home-content {
   position: relative;
