@@ -313,3 +313,26 @@ p {
   background-color: var(--color-white);
   border-radius: 0 0 10px 10px;
 }
+
+/* ------------------------------------------------------- */
+/* Fonts Page */
+/* ------------------------------------------------------- */
+
+.home-content > figure div.font-light-beige {
+  background-color: var(--color-light-beige);
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  /* Width 400px */
+  width: 25rem;
+  /* 300px */
+  height: 18.75rem;
+}
+
+.home-content > figure div.font-light-beige.top {
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid white;
+}
+
+.home-content > figure div.font-light-beige.bottom {
+  border-radius: 0 0 10px 10px;
+}
