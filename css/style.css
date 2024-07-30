@@ -1,4 +1,6 @@
 /* Global Variables */
+/* ---------------- */
+
 :root {
   /* To use => color: var(--color-black); */
   --color-black: rgb(0, 0, 0);
@@ -20,6 +22,7 @@ body {
 }
 
 /* Font Styles */
+/* ----------- */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Bodoni Moda SC", serif;
@@ -55,6 +58,7 @@ h6 {
 }
 
 /* Homepage */
+/* -------- */
 
 /* Background image */
 .home-image {
@@ -85,6 +89,7 @@ h6 {
 }
 
 /* Header */
+/* ------ */
 
 .header {
   position: absolute;
@@ -102,6 +107,8 @@ h6 {
 }
 
 /* Content */
+/* ------- */
+
 .home-content {
   position: relative;
   z-index: 2;
@@ -112,6 +119,7 @@ h6 {
 }
 
 /* Footer */
+/* ------ */
 
 .footer {
   position: absolute;
