@@ -175,6 +175,7 @@ p {
 .home-content nav {
   margin-top: 1.875rem;
 }
+
 .button {
   position: relative;
   display: inline-block;
@@ -245,4 +246,70 @@ p {
   color: var(--color-light-blue);
   font-weight: 600;
   text-decoration: underline;
+}
+
+/* ------------------------------------------------------- */
+/* colors Page */
+/* ------------------------------------------------------- */
+
+/* Main Section */
+#intro-paragraph {
+  font-size: 1.125rem;
+  margin-bottom: 3.75rem;
+}
+
+/* Colors Blocks*/
+.home-content > figure div {
+  position: relative;
+  /* Width 400px */
+  width: 25rem;
+  /* 100px */
+  height: 3.125rem;
+}
+
+.home-content > figure div:nth-last-of-type(6) > p,
+.home-content > figure div:nth-last-of-type(5) > p,
+.home-content > figure div:nth-last-of-type(4) > p,
+.home-content > figure div:nth-last-of-type(3) > p,
+.home-content > figure div:nth-last-of-type(2) > p,
+.home-content > figure div:nth-last-of-type(1) > p {
+  position: relative;
+  left: 10px;
+  top: 12px;
+  font-weight: 500;
+}
+
+/* First block - Dark Black */
+.home-content > figure div:nth-last-of-type(6) {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-radius: 10px 10px 0 0;
+}
+
+/* Second block - Dark Blue */
+.home-content > figure div:nth-last-of-type(5) {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+}
+
+/* Third block - Light Blue */
+.home-content > figure div:nth-last-of-type(4) {
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
+}
+
+/* Fourth block - Dark Beige */
+.home-content > figure div:nth-last-of-type(3) {
+  background-color: var(--color-dark-beige);
+}
+
+/* Fifth block - Light Beige */
+.home-content > figure div:nth-last-of-type(2) {
+  background-color: var(--color-light-beige);
+}
+
+/* Sixth block - White */
+.home-content > figure div:nth-last-of-type(1) {
+  background-color: var(--color-white);
+  border-radius: 0 0 10px 10px;
 }
