@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 /* 72px */
 h1 { 
   font-size: 4.5rem; 
+  margin-bottom: 3.75rem;
 }
 /* 60px */
 h2 { 
@@ -53,39 +54,12 @@ h6 {
   font-size: 2.5rem; 
 }
 
-/* Color Styles */
-
-.black {
-  color: var(--color-black); /* Black */
-}
-
-.white {
-  color: var(--color-white); /* White */
-}
-
-.dark-blue {
-  color: var(--color-dark-blue); /* Dark Blue */
-}
-
-.light-blue {
-  color: var(--color-light-blue); /* Light Blue */
-}
-
-.dark-beige {
-  color: var(--color-dark-beige); /* Dark Beige */
-}
-
-.light-beige {
-  color: var(--color-light-beige); /* Light Beige */
-}
-
-
 /* Homepage */
 
 /* Background image */
 .home-image {
   position: relative;
-  background-image: url(../images/circles.webp);
+  background-image: url(../images/text.webp);
   /* Ensures the image covers the entire element */
   background-size: cover;
   /* Centers the background image within the element */
@@ -105,9 +79,20 @@ h6 {
   bottom: 0;
   left: 0;
   /* Sets the overlay color to white with 50% transparency */
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(226, 218, 214, 0.95);
   /* Ensures the overlay appears above the background image */ 
   z-index: 1; 
+}
+
+/* Header */
+
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  width: 90%;
+  background-color: var(--color-light-beige);
+  padding: 1rem 5%;
 }
 
 /* Content */
@@ -115,5 +100,18 @@ h6 {
   position: relative;
   z-index: 2;
   top: 50%;
-  margin: 0 3.75rem; /* Left & Right: 60px */
+  /* Shifts it back up by 50% of its own height */
+  transform: translateY(-50%); 
+  margin: 0 5%; /* Left & Right: 60px */
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  width: 90%;
+  background-color: var(--color-light-beige);
+  padding: 1rem 5%;
 }
