@@ -3,7 +3,7 @@
 
 **Link to Live Site**: [Style Guide](https://armand-sa.github.io/Style-Guide/)
 
-[Screenshot of live site](./images/website-screen-shot.jpg)
+![Screenshot of live site](./images/website-screen-shot.jpg)
 
 ___
 
