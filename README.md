@@ -1,9 +1,9 @@
 # Challenge Project: Build a Website Style Guide
 ## Front-End Engineer Path - Improved Styling with CSS
 
-Link to Live site: ![Style Guide] ()
+**Link to Live Site**: [Style Guide](https://armand-sa.github.io/Style-Guide/)
 
-![Screenshot of live site](./images/website-screen-shot.jpg)
+[Screenshot of live site](./images/website-screen-shot.jpg)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 As your websites grow larger and more complex, having a consistent set of styles will help them stay cohesive and enjoyable for users! It also helps as you start working with other developers, as you can have a consistent reference for how your website should be built.
 
-Your style guide/design system will include at least a section on colors, fonts, and specific text styles, but it can be extended to as many other areas as you’d like. You can take a look at our ![basic example site](https://content.codecademy.com/PRO/independent-practice-projects/website-design-system/example/index.html?_gl=1*k2rx7u*_gcl_aw*R0NMLjE3MjExMTU5MDEuQ2p3S0NBand0TmkwQmhBMUVpd0FXWmFBTkhjSnBIQnJBZEd1dGVPUG5laFpwaVdjaXhUcmJYSXkwS3VXTTE0RVV6Y2RodnhrbmwtaHZSb0N1X0lRQXZEX0J3RQ..*_gcl_au*MTU4MDYwOTc5MC4xNzIwNjA0ODU4*_ga*MTc4MTczMjIzMC4xNzIxMTE1MTc5*_ga_3LRZM6TM9L*MTcyMjQxNDQxNy4yNy4wLjE3MjI0MTQ0MTcuNjAuMC4w) for a taste of what you’ll be building (yours will be customized).
+Your style guide/design system will include at least a section on colors, fonts, and specific text styles, but it can be extended to as many other areas as you’d like. You can take a look at our [basic example site](https://content.codecademy.com/PRO/independent-practice-projects/website-design-system/example/index.html?_gl=1*k2rx7u*_gcl_aw*R0NMLjE3MjExMTU5MDEuQ2p3S0NBand0TmkwQmhBMUVpd0FXWmFBTkhjSnBIQnJBZEd1dGVPUG5laFpwaVdjaXhUcmJYSXkwS3VXTTE0RVV6Y2RodnhrbmwtaHZSb0N1X0lRQXZEX0J3RQ..*_gcl_au*MTU4MDYwOTc5MC4xNzIwNjA0ODU4*_ga*MTc4MTczMjIzMC4xNzIxMTE1MTc5*_ga_3LRZM6TM9L*MTcyMjQxNDQxNy4yNy4wLjE3MjI0MTQ0MTcuNjAuMC4w) for a taste of what you’ll be building (yours will be customized).
 
 `3.` Your style guide should include a labeled section outlining the colors to be used.
 
