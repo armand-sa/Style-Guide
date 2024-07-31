@@ -325,14 +325,43 @@ p {
   /* Width 400px */
   width: 25rem;
   /* 300px */
-  height: 18.75rem;
+  height: 12.5rem;
 }
 
 .home-content > figure div.font-light-beige.top {
   border-radius: 10px 10px 0 0;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid var(--color-dark-beige);
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
 }
 
 .home-content > figure div.font-light-beige.bottom {
   border-radius: 0 0 10px 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.5px; 
+  font-size: 1.125rem;
+}
+
+/* Horizontal rules */
+
+.home-content > figure div.font-light-beige.top > hr,
+.home-content > figure div.font-light-beige.bottom > hr {
+  margin-top: 1.5rem;
+  background-color: var(--color-dark-beige);
+  height: 1px;
+}
+
+/* Paragraphs */
+.home-content > figure div.font-light-beige.top p:nth-last-of-type(5) {
+  font-weight: 700;
+}
+
+.home-content > figure div.font-light-beige.top p:nth-last-of-type(4) {
+  font-weight: 400;
 }
