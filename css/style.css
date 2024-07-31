@@ -312,6 +312,7 @@ p {
 .home-content > figure div:nth-last-of-type(1) {
   background-color: var(--color-white);
   border-radius: 0 0 10px 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* ------------------------------------------------------- */
@@ -346,6 +347,7 @@ p {
   font-style: normal;
   letter-spacing: -0.5px; 
   font-size: 1.125rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Horizontal rules */
@@ -357,11 +359,36 @@ p {
   height: 1px;
 }
 
-/* Paragraphs */
+/* Paragraphs - Top Section */
 .home-content > figure div.font-light-beige.top p:nth-last-of-type(5) {
   font-weight: 700;
 }
 
 .home-content > figure div.font-light-beige.top p:nth-last-of-type(4) {
   font-weight: 400;
+}
+
+.home-content > figure div.font-light-beige.top p:nth-last-of-type(2) {
+  font-weight: 500;
+}
+
+.home-content > figure div.font-light-beige.top p:nth-last-of-type(1) {
+  font-weight: 700;
+}
+
+/* Paragraphs - Bottom Section */
+.home-content > figure div.font-light-beige.bottom p:nth-last-of-type(5) {
+  font-weight: 700;
+}
+
+.home-content > figure div.font-light-beige.bottom p:nth-last-of-type(4) {
+  font-weight: 400;
+}
+
+.home-content > figure div.font-light-beige.bottom p:nth-last-of-type(2) {
+  font-weight: 500;
+}
+
+.home-content > figure div.font-light-beige.bottom p:nth-last-of-type(1) {
+  font-weight: 700;
 }
